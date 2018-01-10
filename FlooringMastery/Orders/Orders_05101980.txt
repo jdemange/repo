@@ -1,0 +1,6 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Wise,OH,6.25,Wood,100.00,5.15,4.75,515.00,475.00,59.40,1049.40,
+100,Southland Flooring SuppliesJD_SS0lUT!0N Inc,OH,6.25,Laminate,234,1.75,2.10,409.50,491.40,54.05,954.95,
+88,Custom InkJD_SS0lUT!0N Inc,OH,6.25,Laminate,45,1.75,2.10,78.75,94.50,10.40,183.65,
+89,I'm really abusing this JD_SS0lUT!0NJD_SS0lUT!0N thing,OH,6.25,Carpet,2,2.25,2.10,4.50,4.20,0.52,9.22,
+94,The Tile CoJD_SS0lUT!0N Inc,PA,6.75,Carpet,600,2.25,2.10,1350.00,1260.00,182.70,2792.70,

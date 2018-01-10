@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vending Machine</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Vending Machine</h1>
+    <hr/>
+    <ul class="list-group" id="errorMessages"></ul>
+
+    <div class="container col-md-1"> </div>
+    <div class="container col-md-6" id="vendingItems">
+
+    </div>
+
+    <div class="container col-md-4 wrapper">
+        <table id="money-in-table">
+            <tr>
+                <th colspan="2">
+                    <p class="boxLabel">Total $ In</p>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="dollarSign">$ </div>
+                </td>
+                <td>
+                    <div id="money-in-machine" class="currentBalance">0.00</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="wrapper"><button type="button" id="dollar-button" class "btn btn-default">Add Dollar</button></div>
+                </td>
+                <td><button type="button" id="quarter-button" class "btn btn-default moneyAdders">Add Quarter</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="dime-button" class "btn btn-default moneyAdders">Add Dime</button></td>
+                <td><button type="button" id="nickel-button" class "moneyAdders btn btn-default ">Add Nickel</button></td>
+            </tr>
+        </table>
+        <br>
+        <hr/>
+        <br>
+
+        <table id="make-purchase-table">
+            <tr>
+                <th>
+                    <p class="boxLabel">Messages</p>
+                </th>
+            </tr>
+            <tr>
+                <td id="messages-box">
+                    <div class="messageBox"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="item-box" class="control-label col-md-4">Item: </label>
+                            <div class="col-md-8">
+                            <input type="number" class="form-control" id="item-box" placeholder="Selection" required/>
+                            </div>
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button" id="make-purchase-button" class "btn btn-default">Make Purchase</button></td>
+            </tr>
+        </table>
+        <br>
+        <hr/>
+        <br>
+
+        <table id="changetable">
+            <tr>
+                <th>
+                    <p class="boxLabel">Change</p>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="change-box"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="button" id="change-button" class "btn btn-default">Get Change</button></td>
+            </tr>
+        </table>
+
+
+
+    </div>
+    <!--<div class="container col-md-1" </div>-->
+</body>
+
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/home.js"></script>
+
+</html>

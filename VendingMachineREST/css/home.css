@@ -1,0 +1,226 @@
+
+h1 {
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+    font-size: 400%;
+}
+hr {
+width: 80%;
+height: 6px;
+margin-left: auto;
+margin-right: auto;
+background-color:#e4e4ad;
+color: #e4e4ad;
+border: 0 none;
+border-radius: 6px;
+margin-top: 5px;
+margin-bottom:5px;
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+body{
+    font-family: cursive;
+    background-color: #fff;
+}
+.square {
+    background:#fbfbdd;
+    height: 250px;
+    width: 250px;
+    margin: 10px 15px 10px 15px;
+    box-shadow:#e4e4ad 0px 0px 12px 0px;
+
+    border-radius: 6px;
+    
+}
+.boxLabel{
+    font-size: 200%;
+    text-align: center;
+    font-family: cursive;
+    
+}
+.square h1 {
+    color:#000;
+}
+
+.itemNumber{
+    margin-top: 25px;
+    font-size: 125%
+}
+.itemName {
+    font-size: 215%;
+    text-align: center;
+    margin-top: 10px;
+}
+.itemPrice {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 10px;
+}
+.itemQuantity {
+    font-size: 150%;
+    text-align: center;
+    margin-top: 25px;
+}
+@font-face{
+ font-family:'digital-7';
+ src: url('/home/apprentice/Documents/jocelyn.demange/VendingMachineREST/fonts/digital-7.ttf') format('truetype');
+ font-weight: normal;
+ font-size: normal;
+}
+.messageBox {
+    background: #fbfbdd;
+    border:1px solid #e4e4ad;
+    height: 50px;
+    width: 80%;
+    margin: 5px 50px 50px 50px;
+    font-size: 200%;
+    font-family:'digital-7';
+    vertical-align: center;
+    display: inline-block;
+    text-align: center;
+    /*padding: 10px 10px 10px 10px;*/
+}
+.change-box{
+    height: 100px;
+    width: 50%;
+    font-family: cursive;
+    background-color: #fff;
+    font-size: 140%;
+    display: inline-block;
+}
+form{
+    display: inline-block;
+    font-size: 150%;
+    vertical-align: center;
+}
+
+button {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+
+    width: 150px;
+
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+    margin: 4px 2px 4px 2px;
+}
+.vendItem:hover{
+    cursor:pointer;
+    box-shadow:#e4e4ad 0px 0px 24px 0px;
+}
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+button:active {
+	position:relative;
+	top:1px;
+
+}
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+table {
+    width: 100%;
+}
+
+.dollarSign {
+    text-align: right;
+    font-size: 175%;
+    font-family: cursive;
+}
+
+.currentBalance{
+    text-align: left;
+    font-size: 175%;
+    font-family: cursive;
+}
+
+
+.blink {
+	-webkit-animation: blink .5s forwards 5;
+	-moz-animation: blink .5s forwards 5;
+	-ms-animation: blink .5s forwards 5;
+	-o-animation: blink .5s forwards 5;
+	 animation: blink 2.5s forwards 5;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes blink {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}

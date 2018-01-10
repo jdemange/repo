@@ -1,0 +1,4 @@
+2017-02-26T21:03:12.950 : StateDoesNotExistException - checkIfStateIsValid: ;LAKDSFJ
+2017-02-27T10:19:46.253 : addAndSaveOrder: Order Id: 1 |Customer Name: Wise |Total Price: $1049.40
+2017-02-27T10:25:46.884 : addAndSaveOrder: Order Id: 103 |Customer Name: joavel |Total Price: $0.00
+2017-02-27T10:26:40.180 : removeOrderFromSystem: 1999-05-10103

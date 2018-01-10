@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+19,Jocelyn DeMange,PA,6.75,Carpet,600,2.25,2.10,1350.00,1260.00,176.18,2786.18,
