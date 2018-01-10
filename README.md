@@ -1,6 +1,6 @@
-Enclosed you will find projects completed during my time at the Software Guild. 
+Enclosed you will find projects completed both at the Software Guild and after my completion of the program. 
 
-For projects that better display my design abilities I encourage you to visit:
+For projects that better display my graphic abilities I encourage you to visit:
 http://www.DeMangeEnterprises.com
 http://demangeenterprises.com/ShawnButzin/   (UNDER CONSTRUCTION)
 
